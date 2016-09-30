@@ -11,19 +11,23 @@ a {
         color: #85a300;
 }
 
-header {
-        background-color: red;
+.nav-list-item {
+        color:black;
+        text-decoration:none;
+        font-size:25
+}
+nav {
+        word-spacing: 50px;
+        color: black;
 }
 .ctbox {
         width: 100%;
         font-family: sans-serif;
         text-indent: 150px;
-        background-color: white;
         overflow: hidden;
 }
 #header1 {
         height: 30px;
-        width: 100%;
         background-color: #09403C;
         color: white;
         padding: 5px;
@@ -32,51 +36,51 @@ header {
 
 #header2 {
         height: 120px;
-        width: 100%;
         background-color: #01855E
-        color: white;
+        color: red;
         line-height: 0px;
-        font-size: 18;
+        font-size: 50;
 }
 
 #header3 {
         background-color: #8BBF91
-        width: 100%;
         height: 70px;
         color: black;
+        font-size: ;
 
 }
 .alignleft {
         float: left;
-        text-indent: 150px;
 }
 
 .alignright {
         float: right;
-        text-indent: 150px;
 }
-.alignmiddle {
-        float: middle;
-}
+
 
 </style>
 </head>
 <div class="ctbox">
         <div id="header1">
+
+                <p class="alignright" style="padding-right: 4cm">Stay Updated <a href="http://www.whatisrss.com">Subscribe via RSS</a> <a href="https://www.cdc.gov/other/emailupdates/">Email Updates</a></p>   
+
+                
                 <p class="alignleft">Welcome, Guest <a href="http://cs.mcgill.ca/~gbryan/Welcome.html">Login</a> <a href="http://cs.mcgill.ca/~gbryan/register.html">Sign Up</a></p>
                 
-                <p class="alignright">Stay Updated <a href="http://www.whatisrss.com">Subscribe via RSS</a> <a href="https://www.cdc.gov/other/emailupdates/">Email Updates</a></p>            
-                        
-        </div> 
+                <div style="clear:both;"></div> 
+        </div>
 
         <div id="header2">
                 <p class="alignleft">My Blog
-                Description of My Blog<p>
+                <font size="6">Description of My Blog</font><p>
         </div>
 
-        <div id="header3">
-                <p class="alignleft">HOME ABOUT BLOG CONTACT</p>
-        </div>
+        <nav>
+                <a class="nav-list-item"  href="https://www.google.ca/search?q=home&espv=2&biw=950&bih=930&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi139T15rfPAhVo7YMKHbqvAckQ_AUIBygC">HOME</a> 
+                <a class="nav-list-item" href="http://www.about.com/">ABOUT</a> 
+                <a class="nav-list-item" href="http://www.mtlblog.com/">BLOG</a> 
+                <a class="nav-list-item" href="http://www.imdb.com/title/tt0118884/">CONTACT</a>
+        <nav>
 </div>
 </html>
-
